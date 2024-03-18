@@ -21,6 +21,9 @@ export const Standard = {
   },
 };
 
+/**
+ * 4 sizes are supported.
+ */
 export const Sizes = {
   args: {
     username: 'Tom Coleman',
@@ -36,6 +39,9 @@ export const Sizes = {
   ),
 };
 
+/**
+ * Shows the user's initials as a fallback when no image is provided.
+ */
 export const Initials = {
   render: (args) => (
     <>
@@ -47,6 +53,9 @@ export const Initials = {
   ),
 };
 
+/**
+ * Shows a loading indicator.
+ */
 export const Loading = {
   args: {
     loading: true,
@@ -61,6 +70,9 @@ export const Loading = {
   ),
 };
 
+/**
+ * Shows the user's avatar when provided with a `src` prop or in various states and sizes.
+ */
 export const Large = {
   render: () => (
     <>
@@ -75,6 +87,9 @@ export const Large = {
   ),
 };
 
+/**
+ * Avatar component using Controls
+ */
 export const Controls = {
   args: {
     loading: false,
