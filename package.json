@@ -1,14 +1,14 @@
 {
-  "name": "learnstorybook-design-system-template",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@kxseilerjo/learnstorybook-design-system",
+  "version": "1.0.0",
+  "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist/**/*",
     "README.md"
   ],
-  "license": "MIT",
+  "license": "none",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "watch": "rollup --watch -c --bundleConfigAsCjs",
@@ -81,5 +81,8 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
-  }
+  },
+  "description": "Storybook design systems tutorial",
+  "repository": "https://github.com/kxseilerjo/storybook_learnstorybook-design-system.git",
+  "author": "Jonas Seiler <jonas.seiler@kamax.com>"
 }
