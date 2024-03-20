@@ -1,5 +1,6 @@
 {
   "name": "@kxseilerjo/learnstorybook-design-system",
+  "type": "module",
   "version": "1.0.2",
   "private": false,
   "main": "dist/cjs/index.js",
@@ -84,5 +85,6 @@
   },
   "description": "Storybook design systems tutorial",
   "repository": "https://github.com/kxseilerjo/storybook_learnstorybook-design-system.git",
-  "author": "Jonas Seiler <jonas.seiler@kamax.com>"
+  "author": "Jonas Seiler <jonas.seiler@kamax.com>",
+  "dependencies": {}
 }
